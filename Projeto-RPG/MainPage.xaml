@@ -5,37 +5,72 @@
              Shell.NavBarIsVisible="False">
 
     <Grid RowSpacing="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
             
             <!-- Tela de fundo -->
             <Image Source="tela_comeco.jpg"
                    Aspect="AspectFill"
-                   Grid.RowSpan="4"/>
+                   />
 
-            <!-- Botão para INICAR -->
-            <Button Text="INICIAR"
-                    Grid.Row="2"
-                    HeightRequest="45"
-                    BackgroundColor="Transparent"
-                    BorderColor="White"
-                    BorderWidth="1"/>
+            <VerticalStackLayout VerticalOptions="End"
+                                 HorizontalOptions="FillAndExpand">
+                <!-- Botão para INICAR -->
+                <Button Text="INICIAR"
+                        Clicked="ClicouBotaoIniciar"
+                        Margin="20, 10"
+                        HeightRequest="45"
+                        BackgroundColor="Transparent"
+                        BorderColor="White"
+                        BorderWidth="1"/>
 
-            <!--Botão para VER os DESENVOLVEDORES -->    
-            <Button Text="DESENVOLVEDORES"
-                    Grid.Row="3"
-                    HeightRequest="45"
-                    BackgroundColor="Transparent"
-                    BorderColor="White"
-                    BorderWidth="1"/>
+                <!-- Botão para VER os DESENVOLVEDORES -->    
+                <Button Text="SOBRE"
+                        Clicked="ClicouBotaoSobre"
+                        Margin="20, 10"
+                        HeightRequest="45"
+                        BackgroundColor="Transparent"
+                        BorderColor="White"
+                        BorderWidth="1"/>
 
+            </VerticalStackLayout>
+               
+            <Frame Margin="10"
+                   CornerRadius="15"
+                   BackgroundColor="#fffff"
+                   x:Name="FrameSobre"
+                   IsVisible="false">
 
+                   <Grid>
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="60"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="60"/>
+                        </Grid.RowDefinitions>
+                   
+                        <Label Text="SOBRE"
+                               TextColor="white"
+                               HorizontalOptions="Center"
+                               FontSize="30"
+                               FontFamily="Chp-Fire"
+                               Grid.Row="0"/>
+                        
+                        <Label Text="Aplicativo foi desenvolvido por Erick Matheus e Gabriela Werner, com intuito de realizar um trabalho da matéria de Desenvolvimento de  Sistemas. O game se passa em pós-apocalipse"
+                               TextColor="white"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Grid.Row="1"/>
 
-            
+                        <Button Text="Voltar"
+                                Clicked="ClicouBotaoVoltar"
+                                VerticalOptions="End"
+                                CornerRadius="15"
+                                BackgroundColor="black"
+                                BorderWidth="1"
+                                BorderColor="white"
+                                Grid.Row="2"/>       
+                   
+                   </Grid>
+                
+            </Frame>
             
         </Grid>
 
