@@ -19,6 +19,7 @@ public static class MauiProgram
 				fonts.AddFont("Anywhere.ttf", "Anywhere");
 				fonts.AddFont("Anglo-text.ttf", "Anglo");
 				fonts.AddFont("A-theme-for-murder.ttf", "Theme-for-murder");
+				fonts.AddFont("Gimme-Danger.ttf", "Gimme-danger");
 			});
 
 #if DEBUG

@@ -4,6 +4,20 @@
              x:Class="Projeto_RPG.GamePage"
              Shell.NavBarIsVisible="False">
 
-
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+    
+        <Button Text="1"
+                Grid.Row="1"/>
+        <Button Text="2"
+                Grid.Row="2"/>
+        <Button Text="3"
+                Grid.Row="3"/>
+    </Grid>    
 
 </ContentPage>

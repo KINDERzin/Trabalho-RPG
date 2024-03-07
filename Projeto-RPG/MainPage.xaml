@@ -8,8 +8,7 @@
             
             <!-- Tela de fundo -->
             <Image Source="tela_comeco.jpg"
-                   Aspect="AspectFill"
-                   />
+                   Aspect="AspectFill"/>
 
             <VerticalStackLayout VerticalOptions="End"
                                  HorizontalOptions="FillAndExpand">
@@ -67,7 +66,6 @@
                                 BorderWidth="1"
                                 BorderColor="white"
                                 Grid.Row="2"/>       
-                   
                    </Grid>
                 
             </Frame>
