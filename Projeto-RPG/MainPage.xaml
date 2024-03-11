@@ -7,8 +7,17 @@
     <Grid RowSpacing="10">
             
             <!-- Tela de fundo -->
-            <Image Source="tela_comeco.jpg"
+            <Image Source="tela_inicial.png"
                    Aspect="AspectFill"/>
+        
+            <Label Text="DE VOLTA A CIDADE MALDITA"
+                   FontFamily="Gimme-danger"
+                   HorizontalOptions="Center"
+                   
+                   TextColor="Grey"
+                   FontAttributes="Bold"
+                   Margin="10, 20"
+                   FontSize="20"/>    
 
             <VerticalStackLayout VerticalOptions="End"
                                  HorizontalOptions="FillAndExpand">

@@ -4,19 +4,30 @@
              x:Class="Projeto_RPG.GamePage"
              Shell.NavBarIsVisible="False">
 
-    <Grid BackgroundColor="Black">
+    <Grid BackgroundColor="#797f80">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-    
+        
+        <Frame Margin="10">
+            <Label Text="a"
+                   TextColor="white"/>
+
+        </Frame>
+        
         <Button Text="1"
+                Margin="10, 5"
                 Grid.Row="1"/>
+
         <Button Text="2"
+                Margin="10, 5"
                 Grid.Row="2"/>
+
         <Button Text="3"
+                Margin="10, 5"
                 Grid.Row="3"/>
     </Grid>    
 
