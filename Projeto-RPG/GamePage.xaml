@@ -4,7 +4,7 @@
              x:Class="Projeto_RPG.GamePage"
              Shell.NavBarIsVisible="False">
 
-    <Grid BackgroundColor="#797f80">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
@@ -12,23 +12,45 @@
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
         
-        <Frame Margin="10">
+        <Image Source="tela_1_gamepage.jpeg"
+               Aspect="AspectFill"/>
+        
+        <Frame Margin="10"
+               BackgroundColor="Transparent">
             <Label Text="a"
-                   TextColor="white"/>
+                   TextColor="Black"/>
 
         </Frame>
         
         <Button Text="1"
+                Clicked="ClicouBotao1"
+                x:Name="Botao_1"
                 Margin="10, 5"
-                Grid.Row="1"/>
+                Grid.Row="1"
+                BackgroundColor="Transparent"
+                CornerRadius="10"
+                BorderColor="Black"
+                BorderWidth="1"/>
 
         <Button Text="2"
+                Clicked="ClicouBotao2"
+                x:Name="Botao_2"
                 Margin="10, 5"
-                Grid.Row="2"/>
+                Grid.Row="2"
+                BackgroundColor="Transparent"
+                CornerRadius="10"
+                BorderColor="Black"
+                BorderWidth="1"/>
 
         <Button Text="3"
+                Clicked="ClicouBotao3"
+                x:Name="Botao_3"
                 Margin="10, 5"
-                Grid.Row="3"/>
+                Grid.Row="3"
+                BackgroundColor="Transparent"
+                CornerRadius="10"
+                BorderColor="Black"
+                BorderWidth="1"/>
     </Grid>    
 
 </ContentPage>
