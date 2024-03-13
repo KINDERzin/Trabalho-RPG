@@ -12,41 +12,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projeto_RPG
-build_property.ProjectDir = C:\Users\Aluno\Desktop\Trabalho-RPG\Projeto-RPG\
+build_property.ProjectDir = C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/App.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/AppShell.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/GamePage.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/GamePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.GamePage.xaml
 build_metadata.AdditionalFiles.TargetPath = GamePage.xaml
 build_metadata.AdditionalFiles.RelativePath = GamePage.xaml
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/MainPage.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/Resources/Styles/Colors.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Aluno/Desktop/Trabalho-RPG/Projeto-RPG/Resources/Styles/Styles.xaml]
+[C:/Users/Aluno/Trabalho-RPG/Projeto-RPG/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Projeto_RPG.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -8,4 +8,23 @@ public partial class GamePage : ContentPage
 		InitializeComponent();
 	}
 
+	private void ClicouBotaoContinua(object sender, EventArgs args)
+	{
+
+	}
+
+	private void ClicouBotao1(object sender, EventArgs args)
+	{
+
+	}
+
+	private void ClicouBotao2(object sender, EventArgs args)
+	{
+
+	}
+
+	private void ClicouBotao3(object sender, EventArgs args)
+	{
+
+	}
 }

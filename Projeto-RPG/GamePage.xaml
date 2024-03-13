@@ -10,46 +10,67 @@
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
         
         <Image Source="tela_1_gamepage.jpeg"
-               Aspect="AspectFill"/>
+               Aspect="AspectFill"
+               Grid.RowSpan="5"/>
         
         <Frame Margin="10"
-               BackgroundColor="Transparent">
-            <Label Text="a"
-                   TextColor="Black"/>
+               BackgroundColor="#88ffffff"
+               x:Name="FrameHistoria">
+               
+            <Label Text="BEM-VINDO DE VOLTA SOLDADO!                                                Você quiz voltar a sua cidade natal onde inicou o apocalípse, Durante a estrada acaba a gasolina de seu carro, então você decide terminar o caminho a pé, 200 metros a frente você avista a linha de trem"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center"
+                   x:Name="LabelHistoria"
+                   HorizontalOptions="Center"/>
 
         </Frame>
-        
-        <Button Text="1"
-                Clicked="ClicouBotao1"
-                x:Name="Botao_1"
+
+        <Button Text="CONTINUA..."
+                TextColor="White"
+                Clicked="ClicouBotaoContinua"
+                x:Name="BotaoContinua"
                 Margin="10, 5"
                 Grid.Row="1"
                 BackgroundColor="Transparent"
                 CornerRadius="10"
-                BorderColor="Black"
+                BorderColor="White"
                 BorderWidth="1"/>
-
-        <Button Text="2"
-                Clicked="ClicouBotao2"
-                x:Name="Botao_2"
+        
+        <Button Text="1"
+                TextColor="White"
+                Clicked="ClicouBotao1"
+                x:Name="Botao_1"
                 Margin="10, 5"
                 Grid.Row="2"
                 BackgroundColor="Transparent"
                 CornerRadius="10"
-                BorderColor="Black"
+                BorderColor="White"
                 BorderWidth="1"/>
 
-        <Button Text="3"
-                Clicked="ClicouBotao3"
-                x:Name="Botao_3"
+        <Button Text="2"
+                TextColor="White"
+                Clicked="ClicouBotao2"
+                x:Name="Botao_2"
                 Margin="10, 5"
                 Grid.Row="3"
                 BackgroundColor="Transparent"
                 CornerRadius="10"
-                BorderColor="Black"
+                BorderColor="White"
+                BorderWidth="1"/>
+
+        <Button Text="3"
+                TextColor="White"
+                Clicked="ClicouBotao3"
+                x:Name="Botao_3"
+                Margin="10, 5"
+                Grid.Row="4"
+                BackgroundColor="Transparent"
+                CornerRadius="10"
+                BorderColor="White"
                 BorderWidth="1"/>
     </Grid>    
 

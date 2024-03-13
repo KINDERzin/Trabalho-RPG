@@ -10,31 +10,43 @@
             <Image Source="tela_inicial.png"
                    Aspect="AspectFill"/>
         
-            <Label Text="DE VOLTA A CIDADE MALDITA"
+            <Label Text="DE  VOLTA  A   CIDADE  MALDITA"
+                   HorizontalTextAlignment="Center"
                    FontFamily="Gimme-danger"
                    HorizontalOptions="Center"
-                   
+                   VerticalOptions="Start"
                    TextColor="Grey"
-                   FontAttributes="Bold"
-                   Margin="10, 20"
-                   FontSize="20"/>    
+                   Margin="18, 50"
+                   LineHeight="1"
+                   FontSize="30"/>    
 
             <VerticalStackLayout VerticalOptions="End"
                                  HorizontalOptions="FillAndExpand">
                 <!-- Botão para INICAR -->
                 <Button Text="INICIAR"
+                        TextColor="White"    
                         Clicked="ClicouBotaoIniciar"
                         Margin="20, 10"
-                        HeightRequest="45"
+                        HeightRequest="60"
+                        BackgroundColor="Transparent"
+                        BorderColor="White"
+                        BorderWidth="1"/>
+
+                <Button Text="RESUMO"
+                        TextColor="White"    
+                        Clicked="ClicouBotaoResumo"
+                        Margin="20"
+                        HeightRequest="60"
                         BackgroundColor="Transparent"
                         BorderColor="White"
                         BorderWidth="1"/>
 
                 <!-- Botão para VER os DESENVOLVEDORES -->    
                 <Button Text="SOBRE"
+                        TextColor="White"    
                         Clicked="ClicouBotaoSobre"
                         Margin="20, 10"
-                        HeightRequest="45"
+                        HeightRequest="60"
                         BackgroundColor="Transparent"
                         BorderColor="White"
                         BorderWidth="1"/>
@@ -43,7 +55,7 @@
                
             <Frame Margin="10"
                    CornerRadius="15"
-                   BackgroundColor="#fffff"
+                   BackgroundColor="#ffffff"
                    x:Name="FrameSobre"
                    IsVisible="false">
 
@@ -55,25 +67,65 @@
                         </Grid.RowDefinitions>
                    
                         <Label Text="SOBRE"
-                               TextColor="white"
+                               TextColor="Black"
                                HorizontalOptions="Center"
-                               FontSize="30"
+                               FontSize="50"
                                FontFamily="Chp-Fire"
                                Grid.Row="0"/>
                         
-                        <Label Text="Aplicativo foi desenvolvido por Erick Matheus e Gabriela Werner, com intuito de realizar um trabalho da matéria de Desenvolvimento de  Sistemas. O game se passa em pós-apocalipse"
-                               TextColor="white"
+                        <Label Text="Aplicativo foi desenvolvido por Erick Matheus e Gabriela Werner, com intuito de realizar um trabalho escolar."
+                               TextColor="Black"
                                HorizontalOptions="Center"
                                VerticalOptions="Center"
                                Grid.Row="1"/>
 
                         <Button Text="Voltar"
+                                TextColor="White"   
                                 Clicked="ClicouBotaoVoltar"
+                                VerticalOptions="End"
+                                CornerRadius="15"
+                                BackgroundColor="Black"
+                                BorderWidth="1"
+                                BorderColor="white"
+                                Grid.Row="2"/>       
+                   </Grid>
+                
+            </Frame>
+
+            <Frame Margin="10"
+                   CornerRadius="15"
+                   BackgroundColor="#ffffffff"
+                   x:Name="FrameResumo"
+                   IsVisible="false">
+
+                   <Grid>
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="60"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="60"/>
+                        </Grid.RowDefinitions>
+                   
+                        <Label Text="RESUMO"
+                               TextColor="Black"
+                               HorizontalOptions="Center"
+                               FontSize="50"
+                               FontFamily="Chp-Fire"
+                               Grid.Row="0"/>
+                        
+                        <Label Text="Você é um soldado que decidiu voltar a sua cidade natal, onde aconteceu um desastre..."
+                               TextColor="Black"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Grid.Row="1"/>
+
+                        <Button Text="Voltar"
+                                TextColor="White"   
+                                Clicked="ClicouBotaoResumoVoltar"
                                 VerticalOptions="End"
                                 CornerRadius="15"
                                 BackgroundColor="black"
                                 BorderWidth="1"
-                                BorderColor="white"
+                                BorderColor="Black"
                                 Grid.Row="2"/>       
                    </Grid>
                 

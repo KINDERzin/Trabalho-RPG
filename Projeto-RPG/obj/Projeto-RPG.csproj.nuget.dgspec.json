@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj": {}
+    "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj": {
+    "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
         "projectName": "Projeto-RPG",
-        "projectPath": "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

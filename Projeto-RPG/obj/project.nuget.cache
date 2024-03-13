@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2madvvSAFQmLdVWEU7YRQ+E9KaLzw4Inckp1/t//q/zN6OPOid1cwEvJ3jssZDWmjbc/AeAp21zEl96XssfVwQ==",
+  "dgSpecHash": "p6l5/9zkzRwW1MrK8hOEW7/qjR/PhLZQM0FsbHO4BKEtVkObTADbYnTO6siQBalfs9lJJT0gMI+o9TdPTOhzRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Trabalho-RPG\\Projeto-RPG\\Projeto-RPG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.1.23419.4\\microsoft.extensions.configuration.8.0.0-rc.1.23419.4.nupkg.sha512",
