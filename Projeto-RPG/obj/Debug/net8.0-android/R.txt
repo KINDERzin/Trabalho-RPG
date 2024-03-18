@@ -3080,10 +3080,11 @@ int drawable notification_tile_bg 0x7f0700e0
 int drawable notify_panel_notification_icon_bg 0x7f0700e1
 int drawable splash 0x7f0700e2
 int drawable tela_1_gamepage 0x7f0700e3
-int drawable tela_inicial 0x7f0700e4
-int drawable test_level_drawable 0x7f0700e5
-int drawable tooltip_frame_dark 0x7f0700e6
-int drawable tooltip_frame_light 0x7f0700e7
+int drawable tela_de_morte 0x7f0700e4
+int drawable tela_inicial 0x7f0700e5
+int drawable test_level_drawable 0x7f0700e6
+int drawable tooltip_frame_dark 0x7f0700e7
+int drawable tooltip_frame_light 0x7f0700e8
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002

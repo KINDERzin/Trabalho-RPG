@@ -283,7 +283,6 @@ C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -521,7 +520,6 @@ C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\zh-Hant\Microsoft.Maui.Controls.resources.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -531,7 +529,6 @@ C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\bin\mon
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\static.flag
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\buildid.txt
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1029,13 +1026,6 @@ C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\mon
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\src\com\companyname\projeto_rpg\R.java
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.o
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\environment.arm64-v8a.o
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.o
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
-C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1046,3 +1036,14 @@ C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\stamp\_ConvertR
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\environment.x86_64.ll
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\environment.x86_64.o
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Aluno\Trabalho-RPG\Projeto-RPG\obj\Debug\net8.0-android\resizetizer\r\drawable\tela_de_morte.jpeg

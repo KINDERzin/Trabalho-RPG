@@ -21,7 +21,7 @@
                BackgroundColor="#88ffffff"
                x:Name="FrameHistoria">
                
-            <Label Text="BEM-VINDO DE VOLTA SOLDADO!                                                Você quiz voltar a sua cidade natal onde inicou o apocalípse, Durante a estrada acaba a gasolina de seu carro, então você decide terminar o caminho a pé, 200 metros a frente você avista a linha de trem"
+            <Label Text="BEM-VINDO DE VOLTA SOLDADO!                                                Você quis voltar a sua cidade natal onde inicou o apocalípse, Durante a estrada acaba a gasolina de seu carro, então você decide terminar o caminho a pé, 200 metros a frente você avista a linha de trem"
                    TextColor="Black"
                    HorizontalTextAlignment="Center"
                    x:Name="LabelHistoria"
@@ -40,8 +40,7 @@
                 BorderColor="White"
                 BorderWidth="1"/>
         
-        <Button Text="1"
-                TextColor="White"
+        <Button TextColor="White"
                 Clicked="ClicouBotao1"
                 x:Name="Botao_1"
                 Margin="10, 5"
@@ -51,8 +50,7 @@
                 BorderColor="White"
                 BorderWidth="1"/>
 
-        <Button Text="2"
-                TextColor="White"
+        <Button TextColor="White"
                 Clicked="ClicouBotao2"
                 x:Name="Botao_2"
                 Margin="10, 5"
@@ -62,8 +60,7 @@
                 BorderColor="White"
                 BorderWidth="1"/>
 
-        <Button Text="3"
-                TextColor="White"
+        <Button TextColor="White"
                 Clicked="ClicouBotao3"
                 x:Name="Botao_3"
                 Margin="10, 5"
@@ -72,6 +69,34 @@
                 CornerRadius="10"
                 BorderColor="White"
                 BorderWidth="1"/>
+
+        <Frame Grid.RowSpan="5"
+               BackgroundColor="Black"
+               x:Name="FrameMorte"
+               IsVisible="False">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+                <Image Source="tela_de_morte.jpeg"
+                        Grid.RowSpan="3"
+                        Aspect="AspectFill"/>
+
+                <Label Text="VOCE MORREU"
+                       FontFamily="Gimme-danger"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       Grid.Row="1"
+                       FontSize="28"/>
+
+            </Grid>    
+                
+        </Frame>
     </Grid>    
 
 </ContentPage>
