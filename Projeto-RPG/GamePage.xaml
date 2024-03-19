@@ -89,10 +89,20 @@
                 <Label Text="VOCE MORREU"
                        FontFamily="Gimme-danger"
                        TextColor="White"
-                       VerticalOptions="Center"
+                       VerticalOptions="Start"
                        HorizontalTextAlignment="Center"
                        Grid.Row="1"
                        FontSize="28"/>
+                <Button Text="COMEÇAR DE NOVO"
+                        
+                        x:Name="BotaoGameOver"
+                        Clicked="ClicouBotaoGameOver"
+                        TextColor="White"
+                        BackgroundColor="Transparent"
+                        CornerRadius="10"
+                        BorderColor="White"
+                        BorderWidth="1"
+                        Grid.Row="2"/>
 
             </Grid>    
                 
